@@ -1,0 +1,21 @@
+#######################################
+# Syntax Coloring Map For LEDMatrix
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+LEDText	KEYWORD1
+cLEDText	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+Width	KEYWORD2
+Height	KEYWORD2
+SetCursor	KEYWORD2
+ScrollLeft	KEYWORD2
+ScrollRight	KEYWORD2
+ScrollUp	KEYWORD2
+ScrollDown	KEYWORD2
+Print	KEYWORD2

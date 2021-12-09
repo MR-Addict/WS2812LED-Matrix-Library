@@ -1,7 +1,7 @@
 #ifndef _FONT4X6_H_
 #define FONT4X6_H_
 
-uint8_t Font[] = {
+const uint8_t Font[] = {
   4,
   6,
   /*

@@ -25,14 +25,14 @@ uint16_t cLEDMatrix::GetXY(int8_t x, int8_t y) {
   else if (myType == HORIZONTAL_ZIGZAG_MATRIX) {
     if (x >= MATRIX_WIDTH || x < 0 || y >= MATRIX_HEIGHT || y < 0)
       return NUM_LEDS;
-    if (y % 2 == 0)return (y * 8 + x);
-    else return ((y + 1) * 8 - x - 1);
+    if (y % 2 == 0)return (y * MATRIX_WIDTH + x);
+    else return ((y + 1) * MATRIX_WIDTH - x - 1);
   }
   else if (myType == VERTICAL_ZIGZAG_MATRIX) {
     if (x >= MATRIX_WIDTH || x < 0 || y >= MATRIX_HEIGHT || y < 0)
       return NUM_LEDS;
-    if (x % 2 == 0)return (x * 8 + y);
-    else return ((x + 1) * 8 - y - 1);
+    if (x % 2 == 0)return (x * MATRIX_HEIGHT + y);
+    else return ((x + 1) * MATRIX_HEIGHT - y - 1);
   }
   else if (myType == CUSTOM_MATRIX) {
     if (x >= MATRIX_WIDTH || x < 0 || y >= MATRIX_HEIGHT || y < 0)

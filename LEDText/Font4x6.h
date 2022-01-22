@@ -1,5 +1,5 @@
 #ifndef _FONT4X6_H_
-#define FONT4X6_H_
+#define _FONT4X6_H_
 
 const uint8_t Font[] = {
   4,
